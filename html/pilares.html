@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="https://cdn.icon-icons.com/icons2/195/PNG/256/Java_23404.png" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/560712aa0e.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <title>Pilares de OO</title>
+</head>
+<body>
+    <!--CABECALHO/MENU-->
+    <header>
+        <div class="container">
+            <div class="flex">
+                <nav>
+                    <ul class="menu-main">
+                        <li class="menu-main-li"><a href="#pilares-de-oo">Pilares de OO</a></li>
+                        <li class="menu-main-li"><a href="#encapsulamento">Encapsulamento</a></li>
+                        <li class="menu-main-li"><a href="#heranca">Herança</a></li>
+                            <li class="li-dropdown"><a href="../index.html"><i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i></a>
+                        <ul class="dropdown"> 
+                            <li class="dropdown-li"><a href="/html/definicao.html">Definição</a></li>
+                            <li class="dropdown-li"><a href="/html/objeto.html">Objeto</a></li>
+                            <li class="dropdown-li"><a href="/html/classe.html">Classe</a></li>
+                            <li class="dropdown-li"><a href="/html/atributos.html">Atributos</a></li>
+                            <li class="dropdown-li"><a href="/html/metodos.html">Métodos</a></li>
+                            <li class="dropdown-li"><a href="/html/pacotes.html">Pacotes</a></li>
+                            <li class="dropdown-li"><a href="/html/interface.html">Interface</a></li>
+                            <li class="dropdown-li"><a href="/html/enumeracoes.html">Enumerações</a></li>
+                            <li class="dropdown-li"><a href="/html/serializacao.html">Serialização</a></li>
+                            <li class="dropdown-li"><a href="/html/relacionamento.html">Relacionamento</a></li>
+                        </ul>
+                    </li>
+                    </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="painel-main">
+        <h1>Pilares da Orientação a Objeto</h1>
+    </section>
+
+    <!--PILARES-->
+    <div class="conteudo-box">
+        <section id="pilares-de-oo" class="java-conteudo">
+            <h2>Os Pilares da Orientação a Objeto</h2>
+            <p>Em linguagens orientadas a objeto, nós organizamos a maior parte do nosso código em estruturas chamadas classes. Você pode entender uma classe como sendo inicialmente um molde, molde este que geralmente representa alguma estrutura do mundo real com a qual nosso código terá que lidar.<br><br>
+
+            Quando falamos do que um elemento é, estamos falando de suas características, ou seja: falamos do que caracteriza e define um determinado elemento. Já quando falamos do que o elemento pode fazer, estamos falando das ações que pode desempenhar.<br><br>
+
+            Nós podemos chamar as características de atributos, enquanto nós chamamos as ações de métodos. No final, os métodos e atributos ficam agrupados em uma classe.
+            </p>
+        </section>
+    </div>
+    <center><img src="../img/pilares.png"></center>
+
+    <!--ENCAPSULAMENTO-->
+    <div class="conteudo-box">
+        <section id="encapsulamento" class="java-conteudo">
+            <h2>Encapsulamento</h2>
+            O encapsulamento visa esconder atributos e métodos de nossas classes que não deveriam ser acessados por outras estruturas. O encapsulamento nas linguagens orientadas a objetos é definido através de algo que chamamos de atributo de visibilidade. Estes atributos de visibilidade estabelecem justamente o quão acessível nossos atributos e métodos são com relação às demais estruturas do código. De maneira geral, temos três atributos de visibilidade básicos e comuns às linguagens orientadas a objeto em geral:<br><br>
+
+            public: a estrutura é visível a partir de qualquer lugar no código, inclusive em outras classes fora a classe que define o atributo ou método em si;<br><br>
+
+            private: a estrutura é visível somente pela classe que define a estrutura em si. Estruturas externas, como outras classes, não conseguem acessar o método ou atributo que esteja marcado com este atributo de visibilidade;<br><br>
+            
+            protected: a estrutura é visível somente na classe-mãe e nas classes-filhas.
+        </section>
+    </div>
+    <center><img src="../img/encapsulamento.png"></center>
+
+    <!--HERANÇA-->
+    <div class="conteudo-box">
+        <section id="heranca" class="java-conteudo">
+            <h2>Herança</h2>
+            O reaproveitamento de código e a possibilidade de se evitar código duplicado são objetivos das linguagens orientadas a objetos. Facilitando a manutenção, além de manter a coerência.<br><br>
+
+            Por exemplo, nós podemos fazer com que Carro herde Veiculo porque um carro é um veículo; assim como também podemos fazer com que Bicicleta herde Veiculo, pois uma bicicleta é um tipo de veículo. Tudo que é comum entre as classes Carro e Bicicleta foi para a classe Veículo. As classes Carro e Bicicleta estão agora herdando a classe Veiculo para reaproveitar estas estruturas comuns.<br><br>
+
+            Quando temos a herança sendo utilizada, as classes podem assumir um dos dois papéis:<br><br>
+
+            Classe-mãe, classe-base ou super-classe: é a classe que serve de base para as demais classes.<br><br>
+
+            Classe-filha ou sub-classe: é a classe que herda outra determinada classe.<br><br> 
+
+            <center><img src="https://dkrn4sk0rn31v.cloudfront.net/2018/10/15104401/5bc40b6759d0e.png" width="700px" height="400px"></center>
+            <center><img src="../img/codHer.png" width="700px" height="400px"></center>
+        </section>
+    </div>
+</body>
+</html>
