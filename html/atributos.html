@@ -52,14 +52,20 @@
         <section id="atributos-o-que-sao" class="java-conteudo">
             <h2>O que são atributos de uma classe em Java?</h2>
             <p>Os atributos são as propriedades de um objeto, também são conhecidos como variáveis ou campos. Essas propriedades definem o estado de um objeto, fazendo com que esses valores possam sofrer alterações. Exemplo: O "João da Silva" além do nome, também é caracterizado por outros atributos, endereço, número do contribuinte, CPF, etc. Cada atributo permite definir um intervalo de valores que as instâncias dessa propriedade podem apresentar.</p>
-            <center><iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=monokai&wt=bw&l=auto&width=903&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=15.5px&lh=172%25&si=false&es=2x&wm=false&code=public%2520class%2520Cachorro%257B%250A%250A%2509public%2520String%2520nome%253B%250A%2509public%2520int%2520peso%253B%250A%2509public%2520String%2520corOlhos%253B%250A%2509public%2520int%2520quantPatas%253B%250A%257D"
-                style="width: 903px; height: 234px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe></center><br>
+            <button class="fechar" id="fechar">X</button>
         </section>
     </div>
-
+    <div onclick="abrirModal()"class="btn">Exemplo</div>  
+    <div class="janela-modal" id="janela-modal">
+        <div class="modal">
+                <h1></h1>
+                <center><iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=monokai&wt=bw&l=auto&width=903&ds=false&dsyoff=20px&dsblur=68px&wc=false&wa=false&pv=0px&ph=0px&ln=true&fl=1&fm=Hack&fs=15.5px&lh=172%25&si=false&es=2x&wm=false&code=public%2520class%2520Cachorro%257B%250A%250A%2509public%2520String%2520nome%253B%250A%2509public%2520int%2520peso%253B%250A%2509public%2520String%2520corOlhos%253B%250A%2509public%2520int%2520quantPatas%253B%250A%257D"
+                        style="width: 903px; height: 234px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                </iframe></center><br>
+        </div>
+    </div>
     
 
 </body>
